@@ -1,0 +1,66 @@
+{
+  "sections": [
+    {
+      "name": "fbpixels",
+      "include": "partials/_header.html",
+      "script": "js/fbpixels.js",
+      "headScript": ""
+    },
+
+    {
+      "name": "tidio",
+      "include": "partials/_footer.html",
+      "script": "js/tidio.js",
+      "headScript": ""
+    },
+
+    {
+      "name": "header",
+      "include": "partials/_header.html",
+      "script": "js/gt.js",
+      "headScript": ""
+    },
+    {
+      "name": "account",
+      "include": "partials/_account.html",
+      "script": "js/account.js",
+      "headScript": ""
+    },
+    {
+      "name": "footer",
+      "include": "partials/_footer.html",
+      "script": "js/footer-form.js",
+      "headScript": ""
+    },
+    {
+      "name": "product",
+      "include": "partials/_promo.html",
+      "script": "js/protduct.js",
+      "headScript": ""
+    },
+    {
+      "name": "articles",
+      "include": "partials/_articles.html",
+      "script": "js/article.js",
+      "headScript": ""
+    },
+    {
+      "name": "cart",
+      "include": "shopping-cart.html",
+      "script": "js/shopping-cart.js",
+      "headScript": ""
+    },
+    {
+      "name": "signup",
+      "include": "signup.html",
+      "script": "js/signup-form.js",
+      "headScript": ""
+    },
+    {
+      "name": "index",
+      "include": "partials/_articles.html",
+      "script": "js/index.js",
+      "headScript": ""
+    }
+  ]
+}

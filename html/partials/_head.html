@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" class="js no-system-cursor">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>KERIA DAIKI - Portfolio website Designe</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicone.png">
+        <style>
+            body:not(.site__template-mobile) .is-animation-loading {
+                opacity: 0;
+            }
+
+            body,
+            html {
+                scroll-behavior: unset !important;
+                overscroll-behavior-y: none !important;
+            }
+
+            /* Hide scrollbar for Chrome, Safari and Opera */
+
+            body::-webkit-scrollbar {
+                display: none;
+            }
+
+            /* Hide scrollbar for IE, Edge and Firefox */
+
+            body {
+                -ms-overflow-style: none;
+                /* IE and Edge */
+                scrollbar-width: none;
+                /* Firefox */
+            }
+
+            #page-loading_line {
+                width: 0;
+                height: 5px;
+                background-color: #D0C3AE;
+                position: relative;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                margin: auto 0;
+                display: block;
+                z-index: 9999;
+            }
+
+            .loading-bar-line {
+                height: 5px;
+                width: 275px;
+                display: block;
+                position: relative;
+                background-color: rgb(208, 195, 174, .08);
+            }
+
+            .page-loading_text .js-loading_text {
+                margin-bottom: 20px;
+                font-size: 18px;
+            }
+
+            .page-loading_prevstart {
+                margin-top: 35px;
+                display: block;
+                text-align: center;
+                text-transform: uppercase;
+                margin-bottom: 10px !important;
+            }
+
+            .mySwiper {
+                height: 90vh !important;
+            }
+
+        </style>
+
+        <script defer="defer" src="js/vendor.bundle.js"></script>
+        <script defer="defer" src="js/app.bundle.js"></script>
+        <link href="css/app.min.css" rel="stylesheet">
+    </head>
+ 
+    <body class="home" style="overflow: hidden">
