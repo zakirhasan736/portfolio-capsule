@@ -4071,14 +4071,14 @@
                 function o(t) {
                     var e, i = t.el,
                         n = t.url,
-                        s = void 0 === n ? "images/globe.min.gltf" : n,
+                        s = void 0 === n ? "images/globe.mins.gltf" : n,
                         a = t.onLoaded,
                         l = void 0 === a ? null : a;
                     return function (t, e) {
                         if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function")
                     }(this, o), (e = r.call(this, {
                         el: i,
-                        url: s,
+                        url: s, 
                         onLoaded: l
                     })).init(), e
                 }
